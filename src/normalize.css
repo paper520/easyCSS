@@ -1,0 +1,79 @@
+html {
+    /*
+    ------------------
+    防止iPhone在坚屏转向横屏时放大文字
+    ------------------
+    */
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    /*
+    ------------------
+    统一行高
+    ------------------
+    */
+    line-height: 1.15;
+}
+
+button,
+input {
+    /*
+    ------------------
+    兼容部分手机下border不显示问题
+    ------------------
+    */
+    border: 1px solid #b2b2bd;
+}
+
+article,
+footer,
+header,
+nav,
+section {
+    /*
+    ------------------
+    修正旧浏览器未定义的块级元素
+    ------------------
+    */
+    display: block;
+}
+
+canvas,
+svg {
+    /*
+    ------------------
+    修正旧浏览器未定义的行内块元素
+    ------------------
+    */
+    display: inline-block;
+}
+
+div,
+span,
+p,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+a,
+article,
+footer,
+header,
+svg,
+canvas,
+nav,
+section,
+input,
+button {
+    /*
+    ------------------
+    统一不同浏览器盒子尺寸计算方法
+    ------------------
+    */
+    box-sizing: border-box;
+}

@@ -15,7 +15,11 @@ fs.writeFile('./easycss-1.0.0.css', "/*!\n* [" + new Date() + "]\n*/\n" + conten
     //[读取完成特定功能的模块]
     let files = [
 
+        // 浏览器样式统一
+        'normalize.css',
 
+        // 浏览器样式重置
+        'reset.css'
 
     ];
 

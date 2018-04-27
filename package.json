@@ -1,0 +1,15 @@
+{
+    "name": "easycss",
+    "version": "1.0.0",
+    "description": "帮助快速使用css的轻量级样式库",
+    "main": "merge.js",
+    "scripts": {
+        "start": "node merge.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yelloxing/easyCSS.git"
+    },
+    "author": "心叶",
+    "license": "MIT"
+}

@@ -19,7 +19,10 @@ fs.writeFile('./easycss-1.0.0.css', "/*!\n* [" + new Date() + "]\n*/\n" + conten
         'normalize.css',
 
         // 浏览器样式重置
-        'reset.css'
+        'reset.css',
+
+        // 十二栅格化
+        'rasterize.css'
 
     ];
 

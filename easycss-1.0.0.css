@@ -1,5 +1,5 @@
 /*!
-* [Fri May 25 2018 14:01:44 GMT+0800 (CST)]
+* [Sun Jun 17 2018 12:27:36 GMT+0800 (CST)]
 */
 /*!
  *
@@ -166,6 +166,13 @@ ol {
     margin-block-end: 0;
     margin-block-start: 0;
     padding-inline-start: 0;
+    /*
+    ------------------
+    修改IE和其它浏览器不一致问题
+    ------------------
+    */
+    padding: 0;
+    margin: 0;
 }
 
 body {

@@ -69,7 +69,9 @@ canvas,
 nav,
 section,
 input,
-button {
+button,
+em,
+i {
     /*
     ------------------
     统一不同浏览器盒子尺寸计算方法

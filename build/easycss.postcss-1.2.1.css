@@ -1,7 +1,4 @@
 /*!
-* [Wed Jul 18 2018 09:41:48 GMT+0800 (CST)]
-*/
-/*!
  *
  * easyCSS - A lightweight style library that helps quickly use CSS.
  * https://github.com/yelloxing/easyCSS
@@ -40,7 +37,6 @@ body {
     /* 恢复正常字体大小 */
     font-size: .16rem;
 }
-/*!======= normalize.css =======*/
 html {
     /*
     ------------------
@@ -120,9 +116,9 @@ i {
     统一不同浏览器盒子尺寸计算方法
     ------------------
     */
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
-/*!======= reset.css =======*/
 html {
     /*
     ------------------

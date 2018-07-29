@@ -7,5 +7,4 @@
 .git
 .DS_Store
 .project
-test.html
-test.css
+node_modules

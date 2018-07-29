@@ -2,7 +2,6 @@
     "name": "easycss",
     "version": "1.2.1",
     "description": "帮助快速使用css的轻量级样式库",
-    "main": "merge.js",
     "scripts": {
         "release": "node_modules/.bin/grunt release",
         "start": "npm run release"

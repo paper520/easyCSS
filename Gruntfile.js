@@ -1,5 +1,33 @@
 'use strict';
 
+var banner = '/*!\n' +
+    '*\n' +
+    '* easyCSS - A lightweight style library that helps quickly use CSS.\n' +
+    '* https://github.com/yelloxing/easyCSS\n' +
+    '* \n' +
+    '* author <%= pkg.author %>\n' +
+    '*\n' +
+    '* version <%= pkg.version %>\n' +
+    '* \n' +
+    '* build 2018/02/24\n' +
+    '*\n' +
+    '* Copyright yelloxing\n' +
+    '* Released under the MIT license\n' +
+    '* \n' +
+    '**************************************************************\n' +
+    '* \n' +
+    '*【内容】\n' +
+    '*\n' +
+    '* 1.不同浏览器样式统一 \n' +
+    '*\n' +
+    '* 2.浏览器默认样式优化 \n' +
+    '*\n' +
+    '* 【说明】\n' +
+    '*\n' +
+    '* 细节方面的说明直接在代码中备注，并且此处维护的不是针对全部的css样式和html元素的设计，只是针对常用的，目标是轻量级。\n' +
+    '*\n' +
+    '*/';
+
 var source = [
     './src/core.css',//核心
     './src/normalize.css',//浏览器样式统一
@@ -13,7 +41,7 @@ module.exports = function (grunt) {
             options: {
                 separator: '\n',
                 stripBanners: true,
-                banner: ''
+                banner: banner
             },
             target: {
                 src: source,

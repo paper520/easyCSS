@@ -79,3 +79,13 @@ i {
     */
     box-sizing: border-box;
 }
+
+::-ms-clear,
+::-ms-reveal {
+    /*
+    ------------------
+    去掉IE浏览器输入框叉叉和眼睛
+    ------------------
+    */
+    display: none;
+}

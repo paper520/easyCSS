@@ -6,6 +6,8 @@
 
 我们的目标是：在保留灵活性的前提下帮助快速积累有用的css编码经验。
 
+<img align="right" height="100" src="https://github.com/yelloxing/easyCSS/blob/master/data/image/easycss.png">
+
 ****
 ### 作者:心叶
 ### 邮箱:yelloxing@gmail.com

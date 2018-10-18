@@ -47,31 +47,7 @@ svg {
     display: inline-block;
 }
 
-div,
-span,
-p,
-label,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li,
-ol,
-a,
-article,
-footer,
-header,
-svg,
-canvas,
-nav,
-section,
-input,
-button,
-em,
-i {
+* {
     /*
     ------------------
     统一不同浏览器盒子尺寸计算方法

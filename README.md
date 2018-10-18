@@ -1,5 +1,11 @@
 #  easyCSS - 帮助快速使用css的轻量级样式库
 
+[![hompage](https://github.com/yelloxing/easyCSS/blob/master/data/SVG/github.svg)](https://github.com/yelloxing)
+[![easyCSS Code](https://github.com/yelloxing/easyCSS/blob/master/data/SVG/easycss.svg)](https://github.com/yelloxing/easyCSS)
+[![easyCSS license](https://github.com/yelloxing/easyCSS/blob/master/data/SVG/license.svg)](https://github.com/yelloxing/easyCSS/blob/master/LICENSE)
+
+我们的目标是：在保留灵活性的前提下帮助快速积累有用的css编码经验。
+
 ****
 ### 作者:心叶
 ### 邮箱:yelloxing@gmail.com

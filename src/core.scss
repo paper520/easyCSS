@@ -7,3 +7,9 @@ body {
     /* 恢复正常字体大小 */
     font-size: .16rem;
 }
+
+@import './normalize';
+/*浏览器样式统一*/
+
+@import './reset';
+/*浏览器样式优化*/ 

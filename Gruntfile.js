@@ -22,6 +22,8 @@ var banner = '/*!\n' +
     '*\n' +
     '* 2.浏览器默认样式优化 \n' +
     '*\n' +
+    '* 3.预定义特殊布局样式 \n' +
+    '*\n' +
     '* 【说明】\n' +
     '*\n' +
     '* 细节方面的说明直接在代码中备注，并且此处维护的不是针对全部的css样式和html元素的设计，只是针对常用的，目标是轻量级。\n' +
@@ -29,9 +31,7 @@ var banner = '/*!\n' +
     '*/';
 
 var source = [
-    './src/core.css',//核心
-    './src/normalize.css',//浏览器样式统一
-    './src/reset.css'//浏览器样式重置
+    './build/style.css'
 ];
 
 module.exports = function (grunt) {

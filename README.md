@@ -1,6 +1,6 @@
 #  easyCSS - 帮助快速使用css的轻量级样式库
 
-[![hompage](https://github.com/yelloxing/easyCSS/blob/master/data/SVG/github.svg)](https://github.com/yelloxing)
+[![hompage](https://github.com/yelloxing/easyCSS/blob/master/data/SVG/travis.svg)](https://www.travis-ci.org/yelloxing/easyCSS)
 [![easyCSS Code](https://github.com/yelloxing/easyCSS/blob/master/data/SVG/easycss.svg)](https://github.com/yelloxing/easyCSS)
 [![easyCSS license](https://github.com/yelloxing/easyCSS/blob/master/data/SVG/license.svg)](https://github.com/yelloxing/easyCSS/blob/master/LICENSE)
 

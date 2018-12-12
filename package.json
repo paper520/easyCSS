@@ -1,6 +1,6 @@
 {
     "name": "easycss-core",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "description": "帮助快速使用css的轻量级样式库",
     "main": "build/easycss.min.css",
     "scripts": {

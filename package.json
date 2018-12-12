@@ -1,7 +1,8 @@
 {
-    "name": "easycss",
+    "name": "easycss-core",
     "version": "1.3.1",
     "description": "帮助快速使用css的轻量级样式库",
+    "main": "build/easycss.min.css",
     "scripts": {
         "release": "node_modules/.bin/grunt release",
         "edit": "sass --watch ./src/core.scss:./build/style.css",

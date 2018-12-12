@@ -45,7 +45,7 @@ module.exports = function (grunt) {
             },
             target: {
                 src: source,
-                dest: 'build/easycss-<%= pkg.version %>.css'
+                dest: 'build/easycss.css'
             }
         },
         postcss: {
@@ -55,8 +55,8 @@ module.exports = function (grunt) {
                 ]
             },
             target: {
-                src: 'build/easycss-<%= pkg.version %>.css',
-                dest: 'build/easycss.postcss-<%= pkg.version %>.css'
+                src: 'build/easycss.css',
+                dest: 'build/easycss.postcss.css'
             }
         },
         csslint: {
@@ -72,7 +72,7 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/easycss-<%= pkg.version %>.min.css': ['build/easycss.postcss-<%= pkg.version %>.css']
+                    'build/easycss.min.css': ['build/easycss.postcss.css']
                 }
             }
         }

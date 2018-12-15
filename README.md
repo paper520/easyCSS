@@ -13,6 +13,26 @@
 ### 邮箱:yelloxing@gmail.com
 ****
 
+如何使用？
+--------------------------------------
+如果你开发的是一个web项目，直接在页面引入打包后的文件后即可：
+
+```html
+<link rel="stylesheet" href="build/easycss.min.css">
+```
+
+如果你想通过npm方式管理，首先你需要通过命令行安装easyCSS：
+
+```bash
+npm install --save easycss-core
+```
+
+安装好了，可以这样引入：
+
+```js
+import 'node_modules/easycss-core/build/easycss.min.css';
+```
+
 ### 免责声明
 ------
 *   项目中部分数据（如图片等）来自互联网，如果侵犯到对应权益者请联系我们，方便我们及时删除！

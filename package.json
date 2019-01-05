@@ -4,7 +4,7 @@
     "description": "帮助快速使用css的轻量级样式库",
     "main": "build/easycss.min.css",
     "scripts": {
-        "release": "node_modules/.bin/grunt release",
+        "release": "sass ./src/core.scss:./build/style.css && node_modules/.bin/grunt release",
         "edit": "sass --watch ./src/core.scss:./build/style.css",
         "start": "npm run release"
     },
@@ -20,8 +20,6 @@
         "grunt-contrib-concat": "^1.0.1",
         "grunt-contrib-csslint": "^2.0.0",
         "grunt-contrib-cssmin": "^2.2.1",
-        "grunt-contrib-jshint": "^1.1.0",
-        "grunt-contrib-uglify": "^3.3.0",
         "grunt-postcss": "^0.9.0"
     }
 }

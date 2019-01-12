@@ -4,7 +4,7 @@
     "description": "帮助快速使用css的轻量级样式库",
     "main": "build/easycss.min.css",
     "scripts": {
-        "release": "sass ./src/core.scss:./build/style.css && node_modules/.bin/grunt release",
+        "release": "node_modules/.bin/grunt release",
         "edit": "sass --watch ./src/core.scss:./build/style.css",
         "start": "npm run release"
     },

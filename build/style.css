@@ -1,32 +1,4 @@
-/*!
-*
-* easyCSS - A lightweight style library that helps quickly use CSS.
-* https://github.com/yelloxing/easyCSS
-* 
-* author 心叶
-*
-* version 2.0.3-next
-* 
-* build 2018/02/24
-*
-* Copyright yelloxing
-* Released under the MIT license
-* 
-**************************************************************
-* 
-*【内容】
-*
-* 1.不同浏览器样式统一 
-*
-* 2.浏览器默认样式优化 
-*
-* 3.预定义特殊布局样式 
-*
-* 【说明】
-*
-* 细节方面的说明直接在代码中备注，并且此处维护的不是针对全部的css样式和html元素的设计，只是针对常用的，目标是轻量级。
-*
-*/@charset "UTF-8";
+@charset "UTF-8";
 html {
   /* 统一rem计算基数 */
   font-size: 100px; }
@@ -86,8 +58,7 @@ svg {
   统一不同浏览器盒子尺寸计算方法
   ------------------
   */
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 ::-ms-clear,
 ::-ms-reveal {
@@ -182,3 +153,5 @@ table {
   border-collapse: collapse; }
 
 /* 【以上】浏览器样式优化 */
+
+/*# sourceMappingURL=style.css.map */

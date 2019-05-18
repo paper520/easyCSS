@@ -1,4 +1,5 @@
-#  easyCSS - 帮助快速使用css的样式文件
+# 🥕easyCSS
+帮助快速使用css的样式文件。Style files to help you quickly use CSS.
 
 > 我们的目标是：在保留灵活性的前提下帮助快速积累有用的css编码经验。
 

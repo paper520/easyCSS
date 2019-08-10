@@ -14,7 +14,7 @@ html {
     line-height: 1.15;
 }
 
-button,
+button, 
 input {
     /*
     ------------------
@@ -64,4 +64,13 @@ svg {
     ------------------
     */
     display: none;
+}
+
+img {
+    /*
+    ------------------
+    针对火狐浏览器在img标签没有src时候的差异修复
+    ------------------
+    */
+    display: inline-block;
 }
